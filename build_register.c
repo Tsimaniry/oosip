@@ -3,7 +3,7 @@
 void application_build_register(osip_message_t **sip_message)
 {
 char *registerSip="REGISTER";
-char *versionSip= "sip v2";
+char *versionSip= "SIP/2.0";
 char *schemeSip= "sip:";
 char *usernameSip= "usertest";
 char *passworSip= "passwdtest";
@@ -20,7 +20,6 @@ char *reasonPhraseSip="tsimaniry";
 (*sip_message)->status_code=200;
 (*sip_message)->reason_phrase=reasonPhraseSip;
 
-//free (*sip_message);
 
 
 }
