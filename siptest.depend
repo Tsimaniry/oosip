@@ -1,0 +1,1538 @@
+# depslib dependency file v1.0
+1052836142 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osip2\fsm_misc.c
+	<stdio.h>
+	<osip2/internal.h>
+	<osip2/osip_fifo.h>
+	<osip2/osip.h>
+	"fsm.h"
+
+1062668458 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osip2\internal.h
+	<osipparser2/osip_port.h>
+	<taskLib.h>
+	<windows.h>
+	<psos.h>
+	<pthread.h>
+	<windows.h>
+	<Types.h>
+	<os.h>
+	<semaphore.h>
+	<semLib.h>
+	<semaphore.h>
+	<synch.h>
+	<semaphore.h>
+	<synch.h>
+	<sys/types.h>
+	<sys/ipc.h>
+	<sys/sem.h>
+
+1062431840 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\osip_port.h
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<stdarg.h>
+	<config.h>
+	<string.h>
+	<strings.h>
+	<string.h>
+	<sys/types.h>
+	<stdlib.h>
+	<stdarg.h>
+	<varargs.h>
+	<stdarg.h>
+	<time.h>
+	<sys/time.h>
+	<osipparser2/osip_const.h>
+	<osipparser2/osip_list.h>
+
+1053596184 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\osip_const.h
+	<mpatrol.h>
+
+1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\osip_list.h
+	<mpatrol.h>
+
+1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osip2\osip_fifo.h
+	<osip2/osip_mt.h>
+	<osipparser2/osip_list.h>
+
+1052916534 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osip2\osip_mt.h
+	<mpatrol.h>
+	<stdio.h>
+	<errno.h>
+
+1056461508 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osip2\osip.h
+	<osipparser2/osip_const.h>
+	<time.h>
+	<sys/types.h>
+	<osipparser2/osip_parser.h>
+	<osip2/osip_fifo.h>
+
+1058259246 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\osip_parser.h
+	<osipparser2/osip_message.h>
+
+1059123972 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\osip_message.h
+	<osipparser2/osip_const.h>
+	<osipparser2/osip_headers.h>
+	<osipparser2/osip_body.h>
+
+1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\osip_headers.h
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_const.h>
+	<osipparser2/osip_uri.h>
+	<osipparser2/headers/osip_header.h>
+	<osipparser2/headers/osip_accept.h>
+	<osipparser2/headers/osip_accept_encoding.h>
+	<osipparser2/headers/osip_accept_language.h>
+	<osipparser2/headers/osip_alert_info.h>
+	<osipparser2/headers/osip_allow.h>
+	<osipparser2/headers/osip_authorization.h>
+	<osipparser2/headers/osip_call_id.h>
+	<osipparser2/headers/osip_call_info.h>
+	<osipparser2/headers/osip_contact.h>
+	<osipparser2/headers/osip_content_disposition.h>
+	<osipparser2/headers/osip_content_encoding.h>
+	<osipparser2/headers/osip_content_length.h>
+	<osipparser2/headers/osip_content_type.h>
+	<osipparser2/headers/osip_cseq.h>
+	<osipparser2/headers/osip_error_info.h>
+	<osipparser2/headers/osip_from.h>
+	<osipparser2/headers/osip_mime_version.h>
+	<osipparser2/headers/osip_proxy_authenticate.h>
+	<osipparser2/headers/osip_proxy_authorization.h>
+	<osipparser2/headers/osip_record_route.h>
+	<osipparser2/headers/osip_route.h>
+	<osipparser2/headers/osip_to.h>
+	<osipparser2/headers/osip_via.h>
+	<osipparser2/headers/osip_www_authenticate.h>
+
+1064912544 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\osip_uri.h
+	<osipparser2/osip_const.h>
+	<osipparser2/osip_list.h>
+
+1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_header.h
+	<osipparser2/osip_uri.h>
+
+1053019142 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_accept.h
+	<osipparser2/headers/osip_content_type.h>
+
+1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_content_type.h
+	<osipparser2/osip_list.h>
+
+1053019134 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_accept_encoding.h
+	<osipparser2/osip_list.h>
+
+1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_accept_language.h
+	<osipparser2/headers/osip_accept_encoding.h>
+
+1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_alert_info.h
+	<osipparser2/headers/osip_call_info.h>
+
+1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_call_info.h
+	<osipparser2/osip_list.h>
+
+1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_allow.h
+	<osipparser2/headers/osip_content_length.h>
+
+1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_content_length.h
+
+1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_authorization.h
+
+1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_call_id.h
+
+1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_contact.h
+	<osipparser2/headers/osip_from.h>
+
+1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_from.h
+	<osipparser2/osip_list.h>
+	<osipparser2/osip_uri.h>
+
+1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_content_disposition.h
+	<osipparser2/headers/osip_call_info.h>
+
+1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_content_encoding.h
+	<osipparser2/headers/osip_content_length.h>
+
+1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_cseq.h
+
+1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_error_info.h
+	<osipparser2/headers/osip_call_info.h>
+
+1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_mime_version.h
+	<osipparser2/osip_list.h>
+	<osipparser2/osip_uri.h>
+
+1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_proxy_authenticate.h
+	<osipparser2/headers/osip_www_authenticate.h>
+
+1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_www_authenticate.h
+
+1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_proxy_authorization.h
+	<osipparser2/headers/osip_authorization.h>
+
+1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_record_route.h
+	<osipparser2/headers/osip_from.h>
+
+1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_route.h
+	<osipparser2/headers/osip_from.h>
+
+1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_to.h
+	<osipparser2/headers/osip_from.h>
+
+1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_via.h
+	<osipparser2/osip_list.h>
+
+1059123972 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\osip_body.h
+	<osipparser2/headers/osip_content_type.h>
+
+1052836142 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osip2\fsm.h
+	<osipparser2/osip_message.h>
+	<osip2/osip.h>
+
+1052836142 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osip2\ict.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+	"xixt.h"
+
+1052836142 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osip2\xixt.h
+	<osipparser2/osip_const.h>
+	<osipparser2/osip_port.h>
+
+1054032530 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osip2\ict_fsm.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+	"xixt.h"
+
+1052836142 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osip2\ist.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+
+1052836142 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osip2\ist_fsm.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+
+1052836142 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osip2\nict.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+	"xixt.h"
+
+1052836142 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osip2\nict_fsm.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+
+1052836142 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osip2\nist.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+	"xixt.h"
+
+1052836142 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osip2\nist_fsm.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+
+1062431840 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osip2\osip.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+	"xixt.h"
+	<osip2/osip_dialog.h>
+
+1062431840 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osip2\osip_dialog.h
+	<osip2/osip.h>
+
+1062431840 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osip2\osip_dialog.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+	<osip2/osip_dialog.h>
+
+1058259838 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osip2\osip_event.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+
+1064399826 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osip2\osip_negotiation.c
+	<osip2/osip_negotiation.h>
+	<osip2/internal.h>
+
+1053075182 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osip2\osip_negotiation.h
+	<osipparser2/sdp_message.h>
+
+1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\sdp_message.h
+	<mpatrol.h>
+	<osipparser2/osip_list.h>
+
+1063360746 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osip2\osip_transaction.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+	"xixt.h"
+
+1063292496 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osip2\port_condv.c
+	<mpatrol.h>
+	<osip2/internal.h>
+	<osip2/osip_mt.h>
+	<osip2/osip_condv.h>
+	<sys/types.h>
+	<sys/timeb.h>
+	<pthread.h>
+	<sys/types.h>
+	<sys/timeb.h>
+
+1063292496 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osip2\osip_condv.h
+	<stdio.h>
+	<mpatrol.h>
+
+1052836142 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osip2\port_fifo.c
+	<stdlib.h>
+	<stdio.h>
+	<osip2/internal.h>
+	<osip2/osip_fifo.h>
+
+1052920064 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osip2\port_sema.c
+	<stdlib.h>
+	<stdio.h>
+	<osip2/internal.h>
+	<osip2/internal.h>
+	<osip2/osip_mt.h>
+	<limits.h>
+
+1052836142 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osip2\port_thread.c
+	<stdio.h>
+	<osip2/internal.h>
+	<osip2/osip_mt.h>
+	<winbase.h>
+	<process.h>
+
+1056634984 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_accept.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1056635644 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_accept_encoding.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1052836142 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\parser.h
+
+1056635636 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_accept_language.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635630 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_alert_info.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635626 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_allow.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635622 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_authorization.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1059123974 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_body.c
+	<stdio.h>
+	<stdlib.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635606 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_call_id.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1056635602 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_call_info.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635592 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_contact.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1056635586 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_content_disposition.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635582 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_content_encoding.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635578 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_content_length.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1056635206 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_content_type.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635572 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_cseq.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1056635568 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_error_info.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635562 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_from.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1052836142 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_header.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1052836142 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_list.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_list.h>
+
+1052836142 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_md5c.c
+	<osipparser2/osip_md5.h>
+
+1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\osip_md5.h
+
+1059123974 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_message.c
+	<stdio.h>
+	<stdlib.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1058259246 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_message_parse.c
+	<stdio.h>
+	<stdlib.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_parser.h>
+	"parser.h"
+
+1059123974 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_message_to_str.c
+	<stdio.h>
+	<stdlib.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_parser.h>
+
+1056635510 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_mime_version.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1065103358 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_parser_cfg.c
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_parser.h>
+	"parser.h"
+
+1065086366 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_port.c
+	<windows.h>
+	<stdlib.h>
+	<stdio.h>
+	<stdarg.h>
+	<osipparser2/osip_port.h>
+	<ctype.h>
+	<time.h>
+	<selectLib.h>
+	<sys/time.h>
+	<windows.h>
+	<sys/unistd.h>
+	<unistd.h>
+	<syslog.h>
+	<sys/select.h>
+	<pthread.h>
+	<limits.h>
+
+1056635498 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_proxy_authenticate.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1056635488 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_proxy_authorization.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635466 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_record_route.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1056635460 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_route.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1056635442 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_to.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1056635426 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_uri.c
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	<stdlib.h>
+	<stdio.h>
+
+1056635366 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_via.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1059468076 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\osip_www_authenticate.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1052836142 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\sdp_accessor.c
+	<osipparser2/osip_const.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/sdp_message.h>
+	<stdio.h>
+	<stdlib.h>
+
+1054032534 source:c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\src\osipparser2\sdp_message.c
+	<osipparser2/osip_const.h>
+	<osipparser2/sdp_message.h>
+	<osipparser2/osip_port.h>
+	<stdio.h>
+	<stdlib.h>
+
+1499902886 source:c:\users\rajaonarivony\documents\linphone\siptest\main.c
+	<winsock2.h>
+	<osip2/osip.h>
+	<osipparser2/osip_list.h>
+	<osipparser2/osip_uri.h>
+	"build_register.h"
+
+1499898384 c:\users\rajaonarivony\documents\linphone\siptest\build_register.h
+	<osip2/osip.h>
+	<osipparser2/osip_uri.h>
+
+1499901720 source:c:\users\rajaonarivony\documents\linphone\siptest\build_register.c
+	"build_register.h"
+	"build_uri.h"
+
+1499884792 source:c:\users\rajaonarivony\documents\linphone\siptest\build_uri.c
+	"build_uri.h"
+
+1499883738 c:\users\rajaonarivony\documents\linphone\siptest\build_uri.h
+	<osip2/osip.h>
+	<osipparser2/osip_uri.h>
+
+1499901720 source:f:\siptest\build_register.c
+	"build_register.h"
+	"build_uri.h"
+
+1499898384 f:\siptest\build_register.h
+	<osip2/osip.h>
+	<osipparser2/osip_uri.h>
+
+1499883738 f:\siptest\build_uri.h
+	<osip2/osip.h>
+	<osipparser2/osip_uri.h>
+
+1052836142 source:f:\siptest\libosip2-2.0.4\src\osip2\fsm_misc.c
+	<stdio.h>
+	<osip2/internal.h>
+	<osip2/osip_fifo.h>
+	<osip2/osip.h>
+	"fsm.h"
+
+1052836142 f:\siptest\libosip2-2.0.4\src\osip2\fsm.h
+	<osipparser2/osip_message.h>
+	<osip2/osip.h>
+
+1052836142 source:f:\siptest\libosip2-2.0.4\src\osip2\ict.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+	"xixt.h"
+
+1052836142 f:\siptest\libosip2-2.0.4\src\osip2\xixt.h
+	<osipparser2/osip_const.h>
+	<osipparser2/osip_port.h>
+
+1054032530 source:f:\siptest\libosip2-2.0.4\src\osip2\ict_fsm.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+	"xixt.h"
+
+1052836142 source:f:\siptest\libosip2-2.0.4\src\osip2\ist.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+
+1052836142 source:f:\siptest\libosip2-2.0.4\src\osip2\ist_fsm.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+
+1052836142 source:f:\siptest\libosip2-2.0.4\src\osip2\nict.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+	"xixt.h"
+
+1052836142 source:f:\siptest\libosip2-2.0.4\src\osip2\nict_fsm.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+
+1052836142 source:f:\siptest\libosip2-2.0.4\src\osip2\nist.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+	"xixt.h"
+
+1052836142 source:f:\siptest\libosip2-2.0.4\src\osip2\nist_fsm.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+
+1062431840 source:f:\siptest\libosip2-2.0.4\src\osip2\osip.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+	"xixt.h"
+	<osip2/osip_dialog.h>
+
+1062431840 source:f:\siptest\libosip2-2.0.4\src\osip2\osip_dialog.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+	<osip2/osip_dialog.h>
+
+1058259838 source:f:\siptest\libosip2-2.0.4\src\osip2\osip_event.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+
+1064399826 source:f:\siptest\libosip2-2.0.4\src\osip2\osip_negotiation.c
+	<osip2/osip_negotiation.h>
+	<osip2/internal.h>
+
+1063360746 source:f:\siptest\libosip2-2.0.4\src\osip2\osip_transaction.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+	"xixt.h"
+
+1063292496 source:f:\siptest\libosip2-2.0.4\src\osip2\port_condv.c
+	<mpatrol.h>
+	<osip2/internal.h>
+	<osip2/osip_mt.h>
+	<osip2/osip_condv.h>
+	<sys/types.h>
+	<sys/timeb.h>
+	<pthread.h>
+	<sys/types.h>
+	<sys/timeb.h>
+
+1052836142 source:f:\siptest\libosip2-2.0.4\src\osip2\port_fifo.c
+	<stdlib.h>
+	<stdio.h>
+	<osip2/internal.h>
+	<osip2/osip_fifo.h>
+
+1052920064 source:f:\siptest\libosip2-2.0.4\src\osip2\port_sema.c
+	<stdlib.h>
+	<stdio.h>
+	<osip2/internal.h>
+	<osip2/internal.h>
+	<osip2/osip_mt.h>
+	<limits.h>
+
+1052836142 source:f:\siptest\libosip2-2.0.4\src\osip2\port_thread.c
+	<stdio.h>
+	<osip2/internal.h>
+	<osip2/osip_mt.h>
+	<winbase.h>
+	<process.h>
+
+1056634984 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_accept.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1056635644 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_accept_encoding.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1052836142 f:\siptest\libosip2-2.0.4\src\osipparser2\parser.h
+
+1056635636 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_accept_language.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635630 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_alert_info.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635626 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_allow.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635622 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_authorization.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1059123974 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_body.c
+	<stdio.h>
+	<stdlib.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635606 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_call_id.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1056635602 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_call_info.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635592 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_contact.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1056635586 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_content_disposition.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635582 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_content_encoding.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635578 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_content_length.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1056635206 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_content_type.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635572 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_cseq.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1056635568 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_error_info.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635562 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_from.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1052836142 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_header.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1052836142 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_list.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_list.h>
+
+1052836142 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_md5c.c
+	<osipparser2/osip_md5.h>
+
+1059123974 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_message.c
+	<stdio.h>
+	<stdlib.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1058259246 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_message_parse.c
+	<stdio.h>
+	<stdlib.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_parser.h>
+	"parser.h"
+
+1059123974 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_message_to_str.c
+	<stdio.h>
+	<stdlib.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_parser.h>
+
+1056635510 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_mime_version.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1065103358 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_parser_cfg.c
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_parser.h>
+	"parser.h"
+
+1065086366 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_port.c
+	<windows.h>
+	<stdlib.h>
+	<stdio.h>
+	<stdarg.h>
+	<osipparser2/osip_port.h>
+	<ctype.h>
+	<time.h>
+	<selectLib.h>
+	<sys/time.h>
+	<windows.h>
+	<sys/unistd.h>
+	<unistd.h>
+	<syslog.h>
+	<sys/select.h>
+	<pthread.h>
+	<limits.h>
+
+1056635498 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_proxy_authenticate.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1056635488 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_proxy_authorization.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635466 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_record_route.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1056635460 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_route.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1056635442 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_to.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1056635426 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_uri.c
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	<stdlib.h>
+	<stdio.h>
+
+1056635366 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_via.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1059468076 source:f:\siptest\libosip2-2.0.4\src\osipparser2\osip_www_authenticate.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1052836142 source:f:\siptest\libosip2-2.0.4\src\osipparser2\sdp_accessor.c
+	<osipparser2/osip_const.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/sdp_message.h>
+	<stdio.h>
+	<stdlib.h>
+
+1054032534 source:f:\siptest\libosip2-2.0.4\src\osipparser2\sdp_message.c
+	<osipparser2/osip_const.h>
+	<osipparser2/sdp_message.h>
+	<osipparser2/osip_port.h>
+	<stdio.h>
+	<stdlib.h>
+
+1499901692 source:f:\siptest\main.c
+	<winsock2.h>
+	<osip2/osip.h>
+	<osipparser2/osip_uri.h>
+	"build_register.h"
+
+1499884792 source:f:\siptest\build_uri.c
+	"build_uri.h"
+
+1056461508 f:\siptest\libosip2-2.0.4\include\osip2\osip.h
+	<osipparser2/osip_const.h>
+	<time.h>
+	<sys/types.h>
+	<osipparser2/osip_parser.h>
+	<osip2/osip_fifo.h>
+
+1053596184 f:\siptest\libosip2-2.0.4\include\osipparser2\osip_const.h
+	<mpatrol.h>
+
+1058259246 f:\siptest\libosip2-2.0.4\include\osipparser2\osip_parser.h
+	<osipparser2/osip_message.h>
+
+1059123972 f:\siptest\libosip2-2.0.4\include\osipparser2\osip_message.h
+	<osipparser2/osip_const.h>
+	<osipparser2/osip_headers.h>
+	<osipparser2/osip_body.h>
+
+1052836038 f:\siptest\libosip2-2.0.4\include\osipparser2\osip_headers.h
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_const.h>
+	<osipparser2/osip_uri.h>
+	<osipparser2/headers/osip_header.h>
+	<osipparser2/headers/osip_accept.h>
+	<osipparser2/headers/osip_accept_encoding.h>
+	<osipparser2/headers/osip_accept_language.h>
+	<osipparser2/headers/osip_alert_info.h>
+	<osipparser2/headers/osip_allow.h>
+	<osipparser2/headers/osip_authorization.h>
+	<osipparser2/headers/osip_call_id.h>
+	<osipparser2/headers/osip_call_info.h>
+	<osipparser2/headers/osip_contact.h>
+	<osipparser2/headers/osip_content_disposition.h>
+	<osipparser2/headers/osip_content_encoding.h>
+	<osipparser2/headers/osip_content_length.h>
+	<osipparser2/headers/osip_content_type.h>
+	<osipparser2/headers/osip_cseq.h>
+	<osipparser2/headers/osip_error_info.h>
+	<osipparser2/headers/osip_from.h>
+	<osipparser2/headers/osip_mime_version.h>
+	<osipparser2/headers/osip_proxy_authenticate.h>
+	<osipparser2/headers/osip_proxy_authorization.h>
+	<osipparser2/headers/osip_record_route.h>
+	<osipparser2/headers/osip_route.h>
+	<osipparser2/headers/osip_to.h>
+	<osipparser2/headers/osip_via.h>
+	<osipparser2/headers/osip_www_authenticate.h>
+
+1062431840 f:\siptest\libosip2-2.0.4\include\osipparser2\osip_port.h
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<stdarg.h>
+	<config.h>
+	<string.h>
+	<strings.h>
+	<string.h>
+	<sys/types.h>
+	<stdlib.h>
+	<stdarg.h>
+	<varargs.h>
+	<stdarg.h>
+	<time.h>
+	<sys/time.h>
+	<osipparser2/osip_const.h>
+	<osipparser2/osip_list.h>
+
+1052836038 f:\siptest\libosip2-2.0.4\include\osipparser2\osip_list.h
+	<mpatrol.h>
+
+1064912544 f:\siptest\libosip2-2.0.4\include\osipparser2\osip_uri.h
+	<osipparser2/osip_const.h>
+	<osipparser2/osip_list.h>
+
+1052836038 f:\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_header.h
+	<osipparser2/osip_uri.h>
+
+1053019142 f:\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_accept.h
+	<osipparser2/headers/osip_content_type.h>
+
+1052836038 f:\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_content_type.h
+	<osipparser2/osip_list.h>
+
+1053019134 f:\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_accept_encoding.h
+	<osipparser2/osip_list.h>
+
+1052836038 f:\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_accept_language.h
+	<osipparser2/headers/osip_accept_encoding.h>
+
+1052836038 f:\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_alert_info.h
+	<osipparser2/headers/osip_call_info.h>
+
+1052836038 f:\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_call_info.h
+	<osipparser2/osip_list.h>
+
+1052836038 f:\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_allow.h
+	<osipparser2/headers/osip_content_length.h>
+
+1052836038 f:\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_content_length.h
+
+1052836038 f:\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_authorization.h
+
+1052836038 f:\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_call_id.h
+
+1052836038 f:\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_contact.h
+	<osipparser2/headers/osip_from.h>
+
+1052836038 f:\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_from.h
+	<osipparser2/osip_list.h>
+	<osipparser2/osip_uri.h>
+
+1052836038 f:\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_content_disposition.h
+	<osipparser2/headers/osip_call_info.h>
+
+1052836038 f:\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_content_encoding.h
+	<osipparser2/headers/osip_content_length.h>
+
+1052836038 f:\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_cseq.h
+
+1052836038 f:\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_error_info.h
+	<osipparser2/headers/osip_call_info.h>
+
+1052836038 f:\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_mime_version.h
+	<osipparser2/osip_list.h>
+	<osipparser2/osip_uri.h>
+
+1052836038 f:\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_proxy_authenticate.h
+	<osipparser2/headers/osip_www_authenticate.h>
+
+1052836038 f:\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_www_authenticate.h
+
+1052836038 f:\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_proxy_authorization.h
+	<osipparser2/headers/osip_authorization.h>
+
+1052836038 f:\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_record_route.h
+	<osipparser2/headers/osip_from.h>
+
+1052836038 f:\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_route.h
+	<osipparser2/headers/osip_from.h>
+
+1052836038 f:\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_to.h
+	<osipparser2/headers/osip_from.h>
+
+1052836038 f:\siptest\libosip2-2.0.4\include\osipparser2\headers\osip_via.h
+	<osipparser2/osip_list.h>
+
+1059123972 f:\siptest\libosip2-2.0.4\include\osipparser2\osip_body.h
+	<osipparser2/headers/osip_content_type.h>
+
+1052836038 f:\siptest\libosip2-2.0.4\include\osip2\osip_fifo.h
+	<osip2/osip_mt.h>
+	<osipparser2/osip_list.h>
+
+1052916534 f:\siptest\libosip2-2.0.4\include\osip2\osip_mt.h
+	<mpatrol.h>
+	<stdio.h>
+	<errno.h>
+
+1062668458 f:\siptest\libosip2-2.0.4\include\osip2\internal.h
+	<osipparser2/osip_port.h>
+	<taskLib.h>
+	<windows.h>
+	<psos.h>
+	<pthread.h>
+	<windows.h>
+	<Types.h>
+	<os.h>
+	<semaphore.h>
+	<semLib.h>
+	<semaphore.h>
+	<synch.h>
+	<semaphore.h>
+	<synch.h>
+	<sys/types.h>
+	<sys/ipc.h>
+	<sys/sem.h>
+
+1062431840 f:\siptest\libosip2-2.0.4\include\osip2\osip_dialog.h
+	<osip2/osip.h>
+
+1053075182 f:\siptest\libosip2-2.0.4\include\osip2\osip_negotiation.h
+	<osipparser2/sdp_message.h>
+
+1052836038 f:\siptest\libosip2-2.0.4\include\osipparser2\sdp_message.h
+	<mpatrol.h>
+	<osipparser2/osip_list.h>
+
+1063292496 f:\siptest\libosip2-2.0.4\include\osip2\osip_condv.h
+	<stdio.h>
+	<mpatrol.h>
+
+1052836038 f:\siptest\libosip2-2.0.4\include\osipparser2\osip_md5.h
+
+1499901720 source:g:\siptest\build_register.c
+	"build_register.h"
+	"build_uri.h"
+
+1499898384 g:\siptest\build_register.h
+	<osip2/osip.h>
+	<osipparser2/osip_uri.h>
+
+1499883738 g:\siptest\build_uri.h
+	<osip2/osip.h>
+	<osipparser2/osip_uri.h>
+
+1499884792 source:g:\siptest\build_uri.c
+	"build_uri.h"
+
+1052836142 source:g:\siptest\libosip2-2.0.4\src\osip2\fsm_misc.c
+	<stdio.h>
+	<osip2/internal.h>
+	<osip2/osip_fifo.h>
+	<osip2/osip.h>
+	"fsm.h"
+
+1052836142 g:\siptest\libosip2-2.0.4\src\osip2\fsm.h
+	<osipparser2/osip_message.h>
+	<osip2/osip.h>
+
+1052836142 source:g:\siptest\libosip2-2.0.4\src\osip2\ict.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+	"xixt.h"
+
+1052836142 g:\siptest\libosip2-2.0.4\src\osip2\xixt.h
+	<osipparser2/osip_const.h>
+	<osipparser2/osip_port.h>
+
+1054032530 source:g:\siptest\libosip2-2.0.4\src\osip2\ict_fsm.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+	"xixt.h"
+
+1052836142 source:g:\siptest\libosip2-2.0.4\src\osip2\ist.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+
+1052836142 source:g:\siptest\libosip2-2.0.4\src\osip2\ist_fsm.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+
+1052836142 source:g:\siptest\libosip2-2.0.4\src\osip2\nict.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+	"xixt.h"
+
+1052836142 source:g:\siptest\libosip2-2.0.4\src\osip2\nict_fsm.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+
+1052836142 source:g:\siptest\libosip2-2.0.4\src\osip2\nist.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+	"xixt.h"
+
+1052836142 source:g:\siptest\libosip2-2.0.4\src\osip2\nist_fsm.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+
+1062431840 source:g:\siptest\libosip2-2.0.4\src\osip2\osip.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+	"xixt.h"
+	<osip2/osip_dialog.h>
+
+1062431840 source:g:\siptest\libosip2-2.0.4\src\osip2\osip_dialog.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+	<osip2/osip_dialog.h>
+
+1058259838 source:g:\siptest\libosip2-2.0.4\src\osip2\osip_event.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+
+1064399826 source:g:\siptest\libosip2-2.0.4\src\osip2\osip_negotiation.c
+	<osip2/osip_negotiation.h>
+	<osip2/internal.h>
+
+1063360746 source:g:\siptest\libosip2-2.0.4\src\osip2\osip_transaction.c
+	<osip2/internal.h>
+	<osip2/osip.h>
+	"fsm.h"
+	"xixt.h"
+
+1063292496 source:g:\siptest\libosip2-2.0.4\src\osip2\port_condv.c
+	<mpatrol.h>
+	<osip2/internal.h>
+	<osip2/osip_mt.h>
+	<osip2/osip_condv.h>
+	<sys/types.h>
+	<sys/timeb.h>
+	<pthread.h>
+	<sys/types.h>
+	<sys/timeb.h>
+
+1052836142 source:g:\siptest\libosip2-2.0.4\src\osip2\port_fifo.c
+	<stdlib.h>
+	<stdio.h>
+	<osip2/internal.h>
+	<osip2/osip_fifo.h>
+
+1052920064 source:g:\siptest\libosip2-2.0.4\src\osip2\port_sema.c
+	<stdlib.h>
+	<stdio.h>
+	<osip2/internal.h>
+	<osip2/internal.h>
+	<osip2/osip_mt.h>
+	<limits.h>
+
+1052836142 source:g:\siptest\libosip2-2.0.4\src\osip2\port_thread.c
+	<stdio.h>
+	<osip2/internal.h>
+	<osip2/osip_mt.h>
+	<winbase.h>
+	<process.h>
+
+1056634984 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_accept.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1056635644 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_accept_encoding.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1052836142 g:\siptest\libosip2-2.0.4\src\osipparser2\parser.h
+
+1056635636 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_accept_language.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635630 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_alert_info.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635626 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_allow.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635622 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_authorization.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1059123974 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_body.c
+	<stdio.h>
+	<stdlib.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635606 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_call_id.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1056635602 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_call_info.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635592 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_contact.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1056635586 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_content_disposition.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635582 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_content_encoding.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635578 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_content_length.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1056635206 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_content_type.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635572 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_cseq.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1056635568 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_error_info.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635562 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_from.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1052836142 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_header.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1052836142 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_list.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_list.h>
+
+1052836142 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_md5c.c
+	<osipparser2/osip_md5.h>
+
+1059123974 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_message.c
+	<stdio.h>
+	<stdlib.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1058259246 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_message_parse.c
+	<stdio.h>
+	<stdlib.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_parser.h>
+	"parser.h"
+
+1059123974 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_message_to_str.c
+	<stdio.h>
+	<stdlib.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_parser.h>
+
+1056635510 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_mime_version.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1065103358 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_parser_cfg.c
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_parser.h>
+	"parser.h"
+
+1065086366 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_port.c
+	<windows.h>
+	<stdlib.h>
+	<stdio.h>
+	<stdarg.h>
+	<osipparser2/osip_port.h>
+	<ctype.h>
+	<time.h>
+	<selectLib.h>
+	<sys/time.h>
+	<windows.h>
+	<sys/unistd.h>
+	<unistd.h>
+	<syslog.h>
+	<sys/select.h>
+	<pthread.h>
+	<limits.h>
+
+1056635498 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_proxy_authenticate.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1056635488 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_proxy_authorization.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1056635466 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_record_route.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1056635460 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_route.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1056635442 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_to.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1056635426 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_uri.c
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	<stdlib.h>
+	<stdio.h>
+
+1056635366 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_via.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+	"parser.h"
+
+1059468076 source:g:\siptest\libosip2-2.0.4\src\osipparser2\osip_www_authenticate.c
+	<stdlib.h>
+	<stdio.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/osip_message.h>
+
+1052836142 source:g:\siptest\libosip2-2.0.4\src\osipparser2\sdp_accessor.c
+	<osipparser2/osip_const.h>
+	<osipparser2/osip_port.h>
+	<osipparser2/sdp_message.h>
+	<stdio.h>
+	<stdlib.h>
+
+1054032534 source:g:\siptest\libosip2-2.0.4\src\osipparser2\sdp_message.c
+	<osipparser2/osip_const.h>
+	<osipparser2/sdp_message.h>
+	<osipparser2/osip_port.h>
+	<stdio.h>
+	<stdlib.h>
+
+1499902886 source:g:\siptest\main.c
+	<winsock2.h>
+	<osip2/osip.h>
+	<osipparser2/osip_list.h>
+	<osipparser2/osip_uri.h>
+	"build_register.h"
+

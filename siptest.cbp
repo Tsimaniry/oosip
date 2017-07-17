@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="siptest" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/siptest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/Users/rajaonarivony/Documents/linphone/siptest/libosip2-2.0.4/include" />
+					<Add directory="libosip2-2.0.4/include" />
+					<Add directory="F:/siptest/libosip2-2.0.4/include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/siptest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="build_register.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build_register.h" />
+		<Unit filename="build_uri.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build_uri.h" />
+		<Unit filename="libosip2-2.0.4/src/osip2/fsm.h" />
+		<Unit filename="libosip2-2.0.4/src/osip2/fsm_misc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osip2/ict.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osip2/ict_fsm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osip2/ist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osip2/ist_fsm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osip2/nict.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osip2/nict_fsm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osip2/nist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osip2/nist_fsm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osip2/osip.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osip2/osip_dialog.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osip2/osip_event.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osip2/osip_negotiation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osip2/osip_transaction.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osip2/port_condv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osip2/port_fifo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osip2/port_sema.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osip2/port_thread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osip2/xixt.h" />
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_accept.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_accept_encoding.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_accept_language.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_alert_info.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_allow.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_authorization.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_body.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_call_id.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_call_info.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_contact.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_content_disposition.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_content_encoding.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_content_length.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_content_type.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_cseq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_error_info.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_from.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_header.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_md5c.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_message.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_message_parse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_message_to_str.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_mime_version.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_parser_cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_port.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_proxy_authenticate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_proxy_authorization.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_record_route.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_route.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_to.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_uri.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_via.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/osip_www_authenticate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/parser.h" />
+		<Unit filename="libosip2-2.0.4/src/osipparser2/sdp_accessor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libosip2-2.0.4/src/osipparser2/sdp_message.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
