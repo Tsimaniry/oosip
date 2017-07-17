@@ -554,18 +554,18 @@
 	<stdio.h>
 	<stdlib.h>
 
-1499902886 source:c:\users\rajaonarivony\documents\linphone\siptest\main.c
+1500296898 source:c:\users\rajaonarivony\documents\linphone\siptest\main.c
 	<winsock2.h>
 	<osip2/osip.h>
 	<osipparser2/osip_list.h>
 	<osipparser2/osip_uri.h>
 	"build_register.h"
 
-1499898384 c:\users\rajaonarivony\documents\linphone\siptest\build_register.h
+1500292783 c:\users\rajaonarivony\documents\linphone\siptest\build_register.h
 	<osip2/osip.h>
 	<osipparser2/osip_uri.h>
 
-1499901720 source:c:\users\rajaonarivony\documents\linphone\siptest\build_register.c
+1500297018 source:c:\users\rajaonarivony\documents\linphone\siptest\build_register.c
 	"build_register.h"
 	"build_uri.h"
 
