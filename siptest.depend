@@ -554,7 +554,7 @@
 	<stdio.h>
 	<stdlib.h>
 
-1500302830 source:c:\users\rajaonarivony\documents\linphone\siptest\main.c
+1500307001 source:c:\users\rajaonarivony\documents\linphone\siptest\main.c
 	<winsock2.h>
 	<osip2/osip.h>
 	<osipparser2/osip_list.h>
@@ -565,7 +565,7 @@
 	<osip2/osip.h>
 	<osipparser2/osip_uri.h>
 
-1500299051 source:c:\users\rajaonarivony\documents\linphone\siptest\build_register.c
+1500302844 source:c:\users\rajaonarivony\documents\linphone\siptest\build_register.c
 	"build_register.h"
 	"build_uri.h"
 
@@ -1535,4 +1535,14 @@
 	<osipparser2/osip_list.h>
 	<osipparser2/osip_uri.h>
 	"build_register.h"
+
+1500306773 source:c:\users\rajaonarivony\documents\linphone\siptest\build_message.c
+	"build_message.h"
+
+1500306773 c:\users\rajaonarivony\documents\linphone\siptest\build_message.h
+	<osip2/osip.h>
+	<osipparser2/osip_uri.h>
+
+1500307091 source:c:\users\rajaonarivony\documents\linphone\siptest\build_register1.c
+	"build_message.h"
 

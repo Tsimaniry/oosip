@@ -1,5 +1,5 @@
 #include "build_message.h"
-osip_message_t * sip_register( const char * sip_username, short timeout, short wlocal_port, const char * local_ip, const char * proxy_ip, const char * from_tag, const char * via_branch, const char * call_id, int cseq) {
+osip_message_t*  sip_register( const char * sip_username, short timeout, short wlocal_port, const char * local_ip, const char * proxy_ip, const char * from_tag, const char * via_branch, const char * call_id, int cseq) {
 
  	char local_port[10];
 	sprintf(local_port,"%i",wlocal_port);
