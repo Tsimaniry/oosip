@@ -13,9 +13,8 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
-					<Add directory="C:/Users/rajaonarivony/Documents/linphone/siptest/libosip2-2.0.4/include" />
 					<Add directory="libosip2-2.0.4/include" />
-					<Add directory="F:/siptest/libosip2-2.0.4/include" />
+					<Add directory="Exemples" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -34,10 +33,18 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="build_message.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build_message.h" />
 		<Unit filename="build_register.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="build_register.h" />
+		<Unit filename="build_register1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="build_register1.h" />
 		<Unit filename="build_uri.c">
 			<Option compilerVar="CC" />
 		</Unit>

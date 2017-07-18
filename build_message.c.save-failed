@@ -1,21 +1,44 @@
 #include "build_message.h"
 
-osip_message_t*  sip_register( const char * sip_username, short timeout, short wlocal_port, const char *local_ip, const char * proxy_ip, const char * from_tag, const char * via_branch, const char * call_id, int cseq) {
+void copy_string(char d[], char s[]) {
+   int c = 0;
+
+   while (s[c] != '\0') {
+      d[c] = s[c];
+      c++;
+   }
+   d[c] = '\0';
+}
+osip_message_t*  sip_register( const char * sip_username, short timeout, short wlocal_port, char * local_ip, const char * proxy_ip, const char * from_tag, const char * via_branch, const char * call_id, int cseq) {
 
  	char local_port[10];
 	sprintf(local_port,"%i",wlocal_port);
-   	// Message URI
+    printf(" \n local_port: %s", local_port );
+
+	// Message URI
 	osip_message_t *request;
 	osip_message_init(&request);
-
+	printf(" \n sip_message_request: %s", request->sip_method );
 	// FIXME -- Should use the "force_update" function.
 	request->message_property = 2; // buffer is not synchronized with object
 	request->sip_method = strdup("REGISTER");
     osip_message_set_version(request, strdup("SIP/2.0"));
-   	osip_uri_init(&request->req_uri);
-	osip_uri_set_host(request->req_uri, strdup(proxy_ip));
+
+    printf(" \n sip_message_version: %s", request->sip_version );
+
+	osip_uri_init(&request->req_uri);
+
+	printf(" \n URI_user: %s", request->req_uri->username );
 
 
+	//osip_uri_set_host(request->req_uri, strdup(proxy_ip));
+	char *tes ={0};
+	copy_string(tes, proxy_ip);
+    printf(" \n request pointer: %s", tes);
+
+	osip_uri_set_host(request->req_uri, tes);
+    printf(" \n request pointer: %s", request->req_uri->host );
+/*
 	// VIA
 	osip_via_t * via;
 	osip_via_init(&via);
@@ -33,10 +56,8 @@ osip_message_t*  sip_register( const char * sip_username, short timeout, short w
 	char  * via_str;
 	osip_via_to_str(via, &via_str);
 	osip_message_set_via(request, via_str);
-	//printf(" \n sip_message_request: %d", request->vias->nb_elt );
-
 	// set via
-	osip_list_add(request->vias, via, -1);
+	osip_list_add(&request->vias, via, -1);
 
 
 	// FROM
@@ -82,13 +103,11 @@ osip_message_t*  sip_register( const char * sip_username, short timeout, short w
 	osip_contact_param_add(con, strdup("expires"), strdup(numbuf) );
 
 	// add contact
-	osip_list_add(request->contacts, con, -1);
-
-	printf(" \n Request address: %p", request);
+	osip_list_add(&request->contacts, con, -1);
 
 
 	// If dont need authentication, return.
-
+	*/
 
 	return request;
 }

@@ -1,17 +1,17 @@
 /*
   The oSIP library implements the Session Initiation Protocol (SIP -rfc3261-)
   Copyright (C) 2001,2002,2003  Aymeric MOIZARD jack@atosc.org
-  
+
   This library is free software; you can redistribute it and/or
   modify it under the terms of the GNU Lesser General Public
   License as published by the Free Software Foundation; either
   version 2.1 of the License, or (at your option) any later version.
-  
+
   This library is distributed in the hope that it will be useful,
   but WITHOUT ANY WARRANTY; without even the implied warranty of
   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
   Lesser General Public License for more details.
-  
+
   You should have received a copy of the GNU Lesser General Public
   License along with this library; if not, write to the Free Software
   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
@@ -316,6 +316,8 @@ void
 osip_uri_set_host (osip_uri_t * url, char *host)
 {
   url->host = host;
+
+
 }
 
 char *
@@ -1001,11 +1003,11 @@ __osip_uri_unescape (char *string)
   string[index] = 0;		/* terminate it */
 }
 
-/* 
-   Robin Nayathodan <roooot@softhome.net> 
+/*
+   Robin Nayathodan <roooot@softhome.net>
    N.K Electronics INDIA
 
-   RFC3261 16.5 
+   RFC3261 16.5
  */
 
 int

@@ -1,4 +1,5 @@
 #include "build_message.h"
+
 void application_build_register1(osip_message_t **sip_message)
 {
    const char *sip_username="usernametest";
@@ -10,8 +11,9 @@ void application_build_register1(osip_message_t **sip_message)
    const char *via_branch ="z9hG4bK767a1d12";
    const char *call_id = "1234987";
    int cseq =1;
-   *sip_message=malloc(sizeof(osip_message_t));
+   //osip_message_init(&sip_message);
+   *sip_message=sip_register( sip_username,timeout,wlocal_port,local_ip,proxy_ip,from_tag,via_branch,call_id,cseq);
+   printf(" \n Request address dans REG: %p", *sip_message);
 
-   *sip_message=sip_register( *sip_username,timeout,wlocal_port,*local_ip,*proxy_ip,*from_tag,*via_branch,*call_id,cseq);
 
 }
