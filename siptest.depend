@@ -50,7 +50,7 @@
 1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osipparser2\osip_list.h
 	<mpatrol.h>
 
-1052836038 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osip2\osip_fifo.h
+1500391484 c:\users\rajaonarivony\documents\linphone\siptest\libosip2-2.0.4\include\osip2\osip_fifo.h
 	<osip2/osip_mt.h>
 	<osipparser2/osip_list.h>
 
@@ -554,12 +554,14 @@
 	<stdio.h>
 	<stdlib.h>
 
-1500389378 source:c:\users\rajaonarivony\documents\linphone\siptest\main.c
+1500393167 source:c:\users\rajaonarivony\documents\linphone\siptest\main.c
 	<winsock2.h>
 	<osip2/osip.h>
 	<osipparser2/osip_list.h>
 	<osipparser2/osip_uri.h>
 	"build_register.h"
+	<osip2/osip_mt.h>
+	<osip2/osip_fifo.h>
 
 1500292783 c:\users\rajaonarivony\documents\linphone\siptest\build_register.h
 	<osip2/osip.h>
